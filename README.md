@@ -1,3 +1,3 @@
-# magacin-VP
+# magacin
 
-Proekt po Veb Programiranje 2020/2021
+Proekt po Kontinuirana Integracija i Isporaka 2020/2021
