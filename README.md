@@ -1,3 +1,3 @@
 # magacin
 
-Proekt po Kontinuirana Integracija i Isporaka 2020/2021
+Proekt po predmetot Kontinuirana Integracija i Isporaka 2020/2021
