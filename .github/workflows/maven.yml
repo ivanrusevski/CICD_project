@@ -38,16 +38,11 @@ jobs:
     needs: build
 
     steps:
-      - uses: actions/checkout@master
-      - name: deploy to cluster
-        uses: steebchen/kubectl@v2.0.0
-        with: # defaults to latest kubectl binary version
-         config: ${{ secrets.KUBE_CONFIG_DATA }}
-         command: cluster-info
+      - uses: actions/checkout@v1
       - name: Helm install
         uses: WyriHaximus/github-action-helm3@v2
         with:
-          exec: helm upgrade --install github-kiii_project ./helm-chart
+          exec: helm list
           kubeconfig: '${{ secrets.KUBECONFIG }}'        
         
       
