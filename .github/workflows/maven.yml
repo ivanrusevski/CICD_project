@@ -44,7 +44,7 @@ jobs:
         env:
              KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
-             args: kubectl apply -f manifest.yaml
+             args: kubectl cluster-info
       - name: Helm install
         uses: WyriHaximus/github-action-helm3@v2
         with:
