@@ -1,3 +1,5 @@
-# Magacin Veb
+# Warehouse Storage
 
-Proekt po predmetot Kontinuirana Integracija i Isporaka 2020/2021
+Project for the subject  Continuous Integration and Continuous Deployment - 2021
+
+Implementig continuous integration and continuous deployment on an existing web application
