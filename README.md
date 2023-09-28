@@ -2,4 +2,4 @@
 
 Project for the subject  Continuous Integration and Continuous Deployment - 2021
 
-Implementig continuous integration and continuous deployment on an existing web application
+Implementig continuous integration and continuous deployment on an existing web application using Docker and GitHub Actions.
